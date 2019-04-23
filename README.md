@@ -1,4 +1,4 @@
-# LinguaeGraecaePerSeIllustrata
+# Linguae Graecae Per Se Illustrata
 
 LGPSI: An open, expansive Greek-reading composition project
 
