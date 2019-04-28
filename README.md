@@ -6,7 +6,7 @@ LGPSI: An open, expansive Greek-reading composition project
 
 This requires [pandoc][1].
 
-    $ bash scripts/epub.sh
+    $ bash scripts/ebook.sh
 
 ## Build PDF file
 
