@@ -1,0 +1,52 @@
+body {
+  font-family: 'Noto Serif', serif;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  max-width: 800px;
+  margin: 1em;
+}
+nav {
+  font-size: 120%;
+  text-align: center;
+}
+a {
+  color: #C00;
+  text-decoration: none;
+}
+a:hover {
+  color: #F33;
+  text-decoration: underline;
+}
+h1 {
+  text-align: center;
+}
+body.index h1 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+body.index h2 {
+  font-size: 1.7em;
+  margin-top: 0;
+  font-weight: normal;
+  text-align: center;
+}
+body.index h3 {
+  font-size: 1.4em;
+  margin: 0 0 2em;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+p.lead {
+  font-size: 120%;
+  margin-top: 1em;
+}
+ul {
+  margin: 0 1em;
+}
+li {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
