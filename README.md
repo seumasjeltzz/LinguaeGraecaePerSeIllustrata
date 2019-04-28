@@ -10,8 +10,9 @@ This requires [pandoc][1].
 
 ## Build PDF file
 
-This requires [pandoc][1], xelatex, and the SBL Greek font.
+This requires [pandoc][1], xelatex, and the [SBL Greek font][2].
 
     $ bash scripts/pdf.sh
 
 [1]: https://pandoc.org/
+[2]: https://www.sbl-site.org/educational/BiblicalFonts_SBLGreek.aspx
