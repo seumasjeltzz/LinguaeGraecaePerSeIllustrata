@@ -1,5 +1,5 @@
 ---
-title: Ἡ Ἑλληνικὴ γλῶσσα καθ᾿ αὑτὴν φωτιζόμενη
+title: Ἡ Ἑλληνικὴ γλῶσσα καθ᾿ αὑτὴν φωτιζομένη
 creator:
   - role: author
     text: Seumas MacDonald
