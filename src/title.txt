@@ -3,5 +3,7 @@ title: Ἡ Ἑλληνικὴ γλῶσσα καθ' αὑτὴν φωτιζομ�
 creator:
   - role: author
     text: Seumas MacDonald
+author:
+  - Seumas MacDonald
 lang: grc
 ...

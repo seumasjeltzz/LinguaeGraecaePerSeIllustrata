@@ -3,4 +3,4 @@ xelatex lgpsi.tex
 # Twice because TOC
 xelatex lgpsi.tex
 mv lgpsi.pdf docs/
-rm lgpsi.{log,aux,toc,tex}
+rm lgpsi.{log,aux,out,toc,tex}
