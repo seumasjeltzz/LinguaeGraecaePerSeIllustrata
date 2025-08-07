@@ -9,7 +9,7 @@ $if(author)$\author{$for(author)$$author$$sep$ \and $endfor$}$endif$
 \usepackage{parskip}
 \usepackage{fontspec}
 \usepackage[ancientgreek, provide=*]{babel}
-\babelfont[greek]{rm}{SBL Greek}
+\babelfont[ancientgreek]{rm}{SBL Greek}
 \setcounter{secnumdepth}{0}
 
 \begin{document}
