@@ -8,7 +8,7 @@ $if(author)$\author{$for(author)$$author$$sep$ \and $endfor$}$endif$
 \usepackage{hyperref}
 \usepackage{parskip}
 \usepackage{fontspec}
-\usepackage[greek, provide=*]{babel}
+\usepackage[ancientgreek, provide=*]{babel}
 \babelfont[greek]{rm}{SBL Greek}
 \setcounter{secnumdepth}{0}
 
