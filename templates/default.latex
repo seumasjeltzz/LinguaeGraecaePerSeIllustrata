@@ -4,12 +4,24 @@ $if(title)$\title{$title$}$endif$
 $if(subtitle)$\subtitle{$subtitle$}$endif$
 $if(author)$\author{$for(author)$$author$$sep$ \and $endfor$}$endif$
 \date{Ἐτοῖμος: \today}
-
-\usepackage{hyperref}
 \usepackage{parskip}
 \usepackage{fontspec}
-\usepackage[ancientgreek, provide=*]{babel}
-\babelfont[ancientgreek]{rm}{SBL Greek}
+\usepackage{polyglossia}
+\setmainlanguage[variant=ancient]{greek}
+\defaultfontfeatures{Script=Greek,Scale=MatchLowercase,Ligatures=TeX}
+\setmainfont{SBL Greek}
+\usepackage{csquotes}
+\usepackage{microtype}
+\DeclareMicrotypeAlias{SBL Greek}{TU-basic}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue,
+  $if(title)$pdftitle={$title$}$endif$
+  $if(author)$pdfauthor={$for(author)$$author$$sep$ \and $endfor$},$endif$
+}
+
 \setcounter{secnumdepth}{0}
 
 \begin{document}
